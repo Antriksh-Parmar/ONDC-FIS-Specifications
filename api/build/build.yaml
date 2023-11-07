@@ -15664,3 +15664,108 @@ x-attributes:
               description: Url of support helpdesk
               owner: BPP
               type: string
+x-inputs:
+  /search:
+    - key: 1
+      variable: transaction_id
+      value: ''
+    - key: 2
+      variable: message_id
+      value: ''
+    - key: 3
+      variable: timestamp
+      value: ''
+    - key: 4
+      variable: bap_uri
+      value: ''
+    - key: 5
+      variable: bap_id
+      value: ''
+  /select:
+    - key: 1
+      variable: transaction_id
+      value: ''
+    - key: 2
+      variable: message_id
+      value: ''
+    - key: 3
+      variable: timestamp
+      value: ''
+    - key: 4
+      variable: bap_uri
+      value: ''
+    - key: 5
+      variable: bap_id
+      value: ''
+    - key: 6
+      variable: bpp_uri
+      value: ''
+    - key: 7
+      variable: bpp_id
+      value: ''
+  /init:
+    - key: 1
+      variable: transaction_id
+      value: ''
+    - key: 2
+      variable: message_id
+      value: ''
+    - key: 3
+      variable: timestamp
+      value: ''
+    - key: 4
+      variable: bap_uri
+      value: ''
+    - key: 5
+      variable: bap_id
+      value: ''
+    - key: 6
+      variable: bpp_uri
+      value: ''
+    - key: 7
+      variable: bpp_id
+      value: ''
+  /confirm:
+    - key: 1
+      variable: transaction_id
+      value: ''
+    - key: 2
+      variable: message_id
+      value: ''
+    - key: 3
+      variable: timestamp
+      value: ''
+    - key: 4
+      variable: bap_uri
+      value: ''
+    - key: 5
+      variable: bap_id
+      value: ''
+    - key: 6
+      variable: bpp_uri
+      value: ''
+    - key: 7
+      variable: bpp_id
+      value: ''
+  /support:
+    - key: 1
+      variable: transaction_id
+      value: ''
+    - key: 2
+      variable: message_id
+      value: ''
+    - key: 3
+      variable: timestamp
+      value: ''
+    - key: 4
+      variable: bap_uri
+      value: ''
+    - key: 5
+      variable: bap_id
+      value: ''
+    - key: 6
+      variable: bpp_uri
+      value: ''
+    - key: 7
+      variable: bpp_id
+      value: ''
